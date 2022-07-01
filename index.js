@@ -11,7 +11,6 @@ const cli = yargs
 
 cli.command('config', 'Configures umami', {}, argv => {
   console.log('yo', argv);
-  init();
 });
 
-cli.help().argv;
+cli.help(true).argv;
