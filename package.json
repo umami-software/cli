@@ -1,11 +1,20 @@
 {
-  "name": "umami",
-  "version": "1.0.0",
+  "name": "@umami/cli",
+  "version": "0.1.0",
   "description": "umami command line interface",
   "author": "Mike Cao <mike@mikecao.com>",
   "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umami-software/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/mikecao/umami-cli/issues"
+  },
+  "homepage": "https://github.com/mikecao/umami-cli#readme",
   "bin": {
-    "umami": "./cli.js"
+    "umami": "cli.js"
   },
   "scripts": {
     "dev": "rollup -c rollup.config.js --watch",

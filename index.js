@@ -2,7 +2,6 @@
 
 import 'dotenv/config';
 import yargs from 'yargs';
-import init from './init';
 
 const cli = yargs
   .scriptName('umami')
