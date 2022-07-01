@@ -16,6 +16,9 @@
   "bin": {
     "umami": "cli.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "rollup -c rollup.config.js --watch",
     "build": "rollup -c rollup.config.js"
