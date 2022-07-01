@@ -1,7 +1,7 @@
 {
   "name": "@umami/cli",
-  "version": "0.1.0",
-  "description": "umami command line interface",
+  "version": "0.2.0",
+  "description": "Umami command line interface",
   "author": "Mike Cao <mike@mikecao.com>",
   "license": "MIT",
   "repository": {
@@ -9,9 +9,9 @@
     "url": "https://github.com/umami-software/cli"
   },
   "bugs": {
-    "url": "https://github.com/mikecao/umami-cli/issues"
+    "url": "https://github.com/umami-software/cli"
   },
-  "homepage": "https://github.com/mikecao/umami-cli#readme",
+  "homepage": "https://github.com/umami-software/cli#readme",
   "main": "index.js",
   "bin": {
     "umami": "cli.js"

@@ -14,5 +14,5 @@ export default {
       include: 'node_modules/**',
     }),
   ],
-  external: ['yargs', 'chalk', 'terminal-kit', 'dotenv/config', '@prisma/client'],
+  external: ['yargs', 'chalk', 'dotenv/config', '@prisma/client'],
 };

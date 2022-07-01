@@ -1,1 +1,3 @@
-# umami-cli
+# @umami/cli
+
+Umami command line interface
